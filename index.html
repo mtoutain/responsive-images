@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="css/main.css"> </head>
+
+<body>
+    <header> 
+    <h1>Michel Toutain</h1>
+    </header>
+    <main>
+    <div class="wrapper">
+ <ul>
+     <li>
+         <picture>
+             <source srcset="img/carrots-800.jpg" media="(min-width:1500px)">
+             <source srcset="img/carrots-600.jpg" media="(min-width:700px) and (max-width:1500px)">
+             <source srcset="img/carrots-400.jpg" media="(max-width:700px)">
+             <img src="img/carrots-600.jpg"alt="carrots"/>
+         </picture>
+     </li>
+     <li>
+         <picture>
+             <source srcset="img/concert-800.jpg" media="(min-width:1500px)">
+             <source srcset="img/concert-600.jpg" media="(min-width:700px) and (max-width:1500px)">
+             <source srcset="img/concert-400.jpg" media="(max-width:700px)">
+             <img src="img/concert-600.jpg"alt="crowed at a concert"/>
+         </picture>
+     </li>
+     <li>
+         <picture>
+             <source srcset="img/guitar-800.jpg" media="(min-width:1500px)">
+             <source srcset="img/guitar-600.jpg" media="(min-width:700px) and (max-width:1500px)">
+             <source srcset="img/guitar-400.jpg" media="(max-width:700px)">
+             <img src="img/guitar-600.jpg"alt="a guitar"/>
+         </picture>
+     </li>
+     <li>
+         <picture>
+             <source srcset="img/pakistan-800.jpg" media="(min-width:1500px)">
+             <source srcset="img/pakistan-600.jpg" media="(min-width:700px) and (max-width:1500px)">
+             <source srcset="img/pakistan-400.jpg" media="(max-width:700px)">
+             <img src="img/pakistan-600.jpg"alt="the wide cliffs of pakistan"/>
+         </picture>
+     </li>
+     <li>
+         <picture>
+             <source srcset="img/rockcliff-800.jpg" media="(min-width:1500px)">
+             <source srcset="img/rockcliff-600.jpg" media="(min-width:700px) and (max-width:1500px)">
+             <source srcset="img/rockcliff-400.jpg" media="(max-width:700px)">
+             <img src="img/rockcliff-600.jpg"alt="dudes on a cliff"/>
+         </picture>
+     </li>
+     <li>
+         <picture>
+             <source srcset="img/rockstar-800.jpg" media="(min-width:1500px)">
+             <source srcset="img/rockstar-600.jpg" media="(min-width:700px) and (max-width:1500px)">
+             <source srcset="img/rockstar-400.jpg" media="(max-width:700px)">
+             <img src="img/rockstar-600.jpg"alt="some guy in the fog"/>
+         </picture>
+     </li>
+     <li>
+         <picture>
+             <source srcset="img/sunset-800.jpg" media="(min-width:1500px)">
+             <source srcset="img/sunset-600.jpg" media="(min-width:700px) and (max-width:1500px)">
+             <source srcset="img/sunset-400.jpg" media="(max-width:700px)">
+             <img src="img/sunset-600.jpg"alt="a beautiful sunset"/>
+         </picture>
+     </li>
+ </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;
+            <time datetime="2016">2016</time> Michel Toutain</p>
+    </footer>
+</body>
+
+</html>
